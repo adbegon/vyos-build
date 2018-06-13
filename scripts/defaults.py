@@ -22,10 +22,10 @@ BUILD_DIR = 'build'
 BUILD_CONFIG = os.path.join(BUILD_DIR, 'build-config.json')
 
 # The default mirror was chosen entirely at random
-DEBIAN_MIRROR = 'http://deb.debian.org/debian'
+DEBIAN_MIRROR = 'http://mirror.debian.tlm/debian'
 DEBIAN_SECURITY_MIRROR = 'http://deb.debian.org/debian-security'
 
-DEBIAN_DISTRIBUTION = 'jessie'
+DEBIAN_DISTRIBUTION = 'stretch'
 
 PBUILDER_CONFIG = os.path.join(BUILD_DIR, 'pbuilderrc')
 PBUILDER_DIR = os.path.join(BUILD_DIR, 'pbuilder')

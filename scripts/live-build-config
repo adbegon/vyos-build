@@ -40,7 +40,7 @@ lb config noauto \
         --bootloader syslinux \
         --binary-images iso-hybrid \
         --debian-installer false \
-        --distribution jessie \
+        --distribution stretch \
         --iso-application "VyOS" \
         --iso-publisher "{{build_by}}" \
         --iso-volume "VyOS" \

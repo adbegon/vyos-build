@@ -2,9 +2,9 @@
 source /opt/vyatta/etc/functions/script-template
 
 # Add Debian Jessie repository
-set system package repository jessie url 'http://ftp.nl.debian.org/debian/'
-set system package repository jessie distribution 'jessie'
-set system package repository jessie components 'main contrib non-free'
+set system package repository stretch url 'http://ftp.nl.debian.org/debian/'
+set system package repository stretch distribution 'stretch'
+set system package repository stretch components 'main contrib non-free'
 commit
 save
 
@@ -13,7 +13,7 @@ sudo apt-get update
 sudo apt-get -y install open-vm-tools
 
 # Delete Debian Jessie repository
-delete system package repository jessie
+delete system package repository stretch
 commit
 save
 

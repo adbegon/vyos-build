@@ -1,7 +1,7 @@
 # Must be run with --privileged flag
 # Recommended to run the container with a volume mapped 
 # in order to easy exprort images built to "external" world 
-FROM debian:jessie
+FROM debian:stretch
 
 RUN apt-get update &&\
     apt-get install -y \
