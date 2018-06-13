@@ -23,7 +23,7 @@ BUILD_CONFIG = os.path.join(BUILD_DIR, 'build-config.json')
 
 # The default mirror was chosen entirely at random
 DEBIAN_MIRROR = 'http://mirror.debian.tlm/debian'
-DEBIAN_SECURITY_MIRROR = 'http://deb.debian.org/debian-security'
+DEBIAN_SECURITY_MIRROR = 'http://security.debian.org/debian-security'
 
 DEBIAN_DISTRIBUTION = 'stretch'
 
